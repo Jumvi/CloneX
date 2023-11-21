@@ -1,0 +1,144 @@
+body{
+  background-color : #ABB2B9;
+  color:white;
+}
+
+.timeline{
+  background-color:black;
+}
+
+.page-title{
+  color : white;
+  
+}
+
+.page-title a{
+  text-decoration :none;
+  color : white;
+  
+}
+
+.myMaine{
+  display:grid;
+  grid-template-columns : 1fr 1fr 1fr;
+  
+   border: 2px solid black;
+  height: 100%;
+  
+
+}
+
+.page-title h2{
+  font-size : 15px;
+}
+
+.header{
+   display : flex;
+  justify-content : space-between;
+  align-items: center;
+  padding:0px 10px;
+}
+
+hr{
+  color:#100f0f;
+  opacity:0.2;
+  
+}
+
+.top-tweets{
+  color:white;
+}
+
+  .tweet-editor{
+    display:flex;
+    
+    
+  }
+
+  .monAvatar{
+    width:30px;
+    height : 30px;
+    border-radius: 50%;
+    padding : 5px;
+    
+  }
+
+.tweet-avatar{
+  width:30px;
+  height : 30px;
+  border-radius: 50%;
+  padding : 5px;
+}
+.button button{
+  border-radius:16px;
+  background-color: blue;
+  border:2px solid black;
+  color: white;
+}
+
+.button button:hover{
+  background-color: #3273b3;
+  cursor:pointer;
+}
+
+.tweet-editor-imput textarea{
+  background-color: #111212;
+  width: 23rem;
+}
+
+.tweet-editor-buttons{
+  display:flex;
+  justify-content: space-between;
+}
+
+.tweet-editor-actions{
+  display:flex;
+  gap:5px;
+}
+
+.icon{
+  width: 10px;
+  height: 10px;
+  color:blue;
+  font-weight:bold;
+}
+
+.icon:hover{
+  cursor:pointer;
+}
+
+.tweet{
+  display:flex;
+  gap: 5px;
+}
+.tweet-content{
+  
+ 
+}
+
+.tweet-body{
+   
+  
+}
+
+.tweet-title{
+  color: white;
+}
+
+.tweet-text{
+  color: white;
+}
+
+.tweet-actions{
+  padding: 5px 0px;
+  
+  
+  
+  
+}
+
+.Myicon{
+  margin-right: 50px;
+}
+  
+
