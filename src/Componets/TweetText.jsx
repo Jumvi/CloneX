@@ -1,10 +1,10 @@
 
 
-function TweetText(){
+function TweetText({text}){
   return(
     <di className="tweet-text">
       <p>
-        This is a tweet.This is a tweet.This is a tweet.This is a tweet.This is a tweet.This is a tweet.This is a tweet.This is a tweet.This is a tweet.This is a tweet.This is a tweet.This is a tweet.This is a tweet.This is a tweet.This is a tweet.This is a tweet.This is a tweet.This is a tweet.
+        {text}
       </p>
     </di>
   )

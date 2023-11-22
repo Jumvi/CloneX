@@ -110,6 +110,15 @@ hr{
 .tweet{
   display:flex;
   gap: 5px;
+  width: 700px
+}
+
+.tweet div{
+  width: 650px;
+}
+
+.tweet img{
+  width : 90%;
 }
 .tweet-content{
   
@@ -139,6 +148,14 @@ hr{
 
 .Myicon{
   margin-right: 50px;
+}
+
+.tweet-image{
+  width : 50%;
+  height : 50%;
+  border-radius: 5px;
+  
+}
 }
   
 

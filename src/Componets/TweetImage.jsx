@@ -1,10 +1,10 @@
-import { useState } from "react";
 
 
-function TweetImage({src,onChange}){
+
+function TweetImage({src}){
   
-  return(<div>
-     <img src = {src} alt="" onChange={onChange}/>
+  return(<div className="tweet-image">
+     <img src = {src} alt=""/>
   </div>)
   
   

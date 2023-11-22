@@ -4,11 +4,12 @@ import TweeBody from './TweetBody';
 
 
 
-function TweetContent() {
+function TweetContent({title,text,src}) {
   return (
     <div className="tweet-content">
-      <TweeBody />
-      
+      <TweeBody title = {title} text = {text} src={src} />
+
+ 
       <TweetActionConteneur />
     </div>
   )
